@@ -19,8 +19,6 @@
 </template>
 
 <script>
-  import VueClip from 'vue-clip'
-
   export default {
     data () {
       return {
@@ -29,9 +27,6 @@
           paramName: 'file'
         }
       }
-    },
-    components: {
-      VueClip
     }
   }
 </script>

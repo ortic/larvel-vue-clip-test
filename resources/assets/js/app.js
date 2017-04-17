@@ -16,6 +16,10 @@ require('./bootstrap');
 Vue.component('example', require('./components/Example.vue'));
 Vue.component('test-component', require('./components/TestComponent.vue'));
 
+
+import VueClip from 'vue-clip'
+Vue.use(VueClip)
+
 const app = new Vue({
     el: '#app'
 });
